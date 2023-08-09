@@ -25,7 +25,7 @@ app.set('view engine', 'handlebars');
 // https://expressjs.com/en/starter/static-files.html
 app.use(express.static(`${__dirname}/uploads`));
 
-const nombre = 'Fabricio';
+const nombre = 'Tzipi';
 
 app.get('/', (req, res) => {
   res.render('home_ejemplo', {
